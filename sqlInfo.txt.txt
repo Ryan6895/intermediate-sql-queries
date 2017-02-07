@@ -1,0 +1,16 @@
+/* CREATE TABLE movies (
+    id INTEGER PRIMARY KEY,
+    title TEXT,
+  	mediaTypeId INTEGER, 
+    FOREIGN KEY(mediaTypeId) REFERENCES MediaType(MediaTypeId)
+); */
+/* insert into movies (title, mediaTypeId) values ("Aladdin", 3) */
+/* ALTER TABLE movies ADD COLUMN genreId INTEGER REFERENCES Genre(GenreId); */
+/* update movies set genreId=22 where id=1 */
+/* select a.title, ar.Name from album a join artist ar on a.ArtistId=ar.ArtistId */
+/* select * from Track where GenreId in (select GenreId from Genre where Name='Jazz' OR Name='Blues') */
+/* update Employee set Phone=null where EmployeeId=1 */
+/* select * from customer where company is null */
+/* select distinct country from customer */
+/* select * from customer where fax is not null */
+/* delete from customer where fax is not null */
